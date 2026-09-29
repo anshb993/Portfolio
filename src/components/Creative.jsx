@@ -36,7 +36,7 @@ export default function Creative() {
         </span>
         <h2 className="font-display text-[clamp(28px,4vw,44px)]">Creative reel</h2>
         <span className="ml-auto text-muted text-xs uppercase tracking-widest">
-          Video editing & videography
+          Video editing & Motion graphics
         </span>
       </div>
 
