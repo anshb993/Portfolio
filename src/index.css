@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.letterbox {
+  height: 14px;
+  background: #000;
+  width: 100%;
+}
