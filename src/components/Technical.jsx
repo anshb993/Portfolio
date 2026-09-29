@@ -32,25 +32,33 @@ export default function Technical() {
           </div>
         </div>
 
-        <div className="bg-surface border border-line rounded-md overflow-hidden hover:border-accent2 transition-colors">
-          <div className="aspect-video bg-surface2">
-            <img
-              src="/images/vigil-screenshot.png"
-              alt="Vigil app screenshots — today, month, year and log views"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <div className="p-6">
-            <div className="text-[11px] uppercase tracking-widest text-accent2 mb-2.5">
-              React Native
+        <a
+          href="https://github.com/anshb993/Vigil"
+          target="_blank"
+          rel="noreferrer"
+          className="bg-surface border border-line rounded-md overflow-hidden hover:border-accent2 transition-colors block"
+        >
+          <div className="bg-surface border border-line rounded-md overflow-hidden hover:border-accent2 transition-colors">
+            <div className="aspect-video bg-surface2">
+              <img
+                src="/images/vigil-screenshot.png"
+                alt="Vigil app screenshots — today, month, year and log views"
+                className="w-full h-full object-cover"
+              />
             </div>
-            <h3 className="text-[17px] font-semibold mb-2.5">Vigil — sleep & day tracker</h3>
-            <div className="flex justify-between border-t border-line mt-4 pt-3.5 text-sm text-muted">
-              <span>Stack</span>
-              <b className="text-ink font-semibold">React Native</b>
+            <div className="p-6">
+              <div className="text-[11px] uppercase tracking-widest text-accent2 mb-2.5">
+                React Native
+              </div>
+              <h3 className="text-[17px] font-semibold mb-2.5">Vigil — sleep & day tracker</h3>
+              <div className="flex justify-between border-t border-line mt-4 pt-3.5 text-sm text-muted">
+                <span>Stack</span>
+                <b className="text-ink font-semibold">React Native</b>
+              </div>
             </div>
           </div>
-        </div>
+        </a>
+
 
         <a
           href="https://leetcode.com/u/anshbalve23/"
