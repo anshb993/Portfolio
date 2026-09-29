@@ -6,9 +6,9 @@ const items = [
     youtubeId: 'czdcEFuVXiE',
   },
   {
-    cat: 'Talking head',
-    title: 'Interview / podcast cut',
-    sub: 'In progress',
+    cat: 'Qoves style motion graphics',
+    title: 'Motion graohics edit',
+    sub: 'Animated edit',
     subClass: 'text-accent',
     youtubeId: 'Y-Ezd9HlXew',
   },
@@ -29,8 +29,8 @@ const designs = [
 
 export default function Creative() {
   return (
-    <section id="creative" className="px-[6vw] py-20 border-b border-line">
-      <div className="flex items-baseline gap-5 mb-12">
+    <section id="creative" className="px-[6vw] py-10 border-b border-line">
+      <div className="flex items-center gap-5 mb-12">
         <span className="font-mono text-accent text-sm border border-accent rounded px-2.5 py-1">
           00:00
         </span>
@@ -55,7 +55,7 @@ export default function Creative() {
                 title={item.title}
               />
             </div>
-            <div className="px-4.5 pt-4 pb-5">
+            <div className="px-6 pt-4 pb-5">
               <div className="text-[11px] uppercase tracking-widest text-accent mb-1.5">
                 {item.cat}
               </div>
@@ -85,7 +85,7 @@ export default function Creative() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="px-4.5 pt-4 pb-5">
+              <div className="px-6 pt-4 pb-5">
                 <h3 className="text-base font-semibold">{d.title}</h3>
               </div>
             </div>

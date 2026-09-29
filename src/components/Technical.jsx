@@ -1,7 +1,7 @@
 export default function Technical() {
   return (
-    <section id="technical" className="px-[6vw] py-20 border-b border-line">
-      <div className="flex items-baseline gap-5 mb-12">
+    <section id="technical" className="px-[6vw] py-10 border-b border-line">
+      <div className="flex items-center gap-5 mb-12">
         <span className="font-mono text-accent text-sm border border-accent rounded px-2.5 py-1">
           00:02
         </span>

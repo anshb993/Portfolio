@@ -3,7 +3,7 @@ export default function Nav() {
     <nav className="flex items-center justify-between px-[6vw] py-7 border-b border-line">
       <div className="font-display text-2xl flex items-center gap-2">
         <span className="w-2 h-2 rounded-full bg-accent inline-block" />
-        ANSH
+        ANSH - Goa, India
       </div>
       <div className="hidden md:flex gap-8 text-xs uppercase tracking-widest text-muted">
         <a href="#creative" className="hover:text-ink">Creative</a>

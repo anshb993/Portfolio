@@ -10,7 +10,6 @@ export default function App() {
     <>
       <div className="letterbox" />
       <Nav />
-      <Hero />
       <Creative />
       <Agency />
       <Technical />
