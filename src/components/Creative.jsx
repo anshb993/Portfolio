@@ -7,7 +7,7 @@ const items = [
   },
   {
     cat: 'Qoves style motion graphics',
-    title: 'Motion graohics edit',
+    title: 'Motion graphics edit',
     sub: 'Animated edit',
     subClass: 'text-accent',
     youtubeId: 'Y-Ezd9HlXew',
